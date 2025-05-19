@@ -22,13 +22,15 @@ http://65.1.76.67:5000/api
   "emailId": "string (required if type is 'email')",
   "phone": "string (required if type is 'sms')"
 }
+```
 
 ### 2. Get In-App Notifications for a User
 - **URL:** `http://65.1.76.67:5000/api/users/:id/notifications`
 - **Method:** `GET`
 Fetches in-app notifications for a given user ID, sorted by newest first.
 - **Parameters:**
-  - `id` (path) - user ID to fetch notifications for.```
+  - `id` (path) - user ID to fetch notifications for.
+
 
 ##  Features
 
