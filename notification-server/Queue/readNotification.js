@@ -3,7 +3,7 @@ const Notification = require("../models/Notification");
 const emailService = require("../services/emailService");
 const smsService = require("../services/smsService");
 const inAppService = require("../services/inAppService");
-const MAX_RETRIES = 0;
+const MAX_RETRIES = 3;
 
 async function readQueue() {
   const conn = await amqp.connect(process.env.RABBITMQ_URL);

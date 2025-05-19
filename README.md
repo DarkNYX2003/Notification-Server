@@ -3,6 +3,8 @@
 
 Notification Service built using **Node.js**, **Express**, **MongoDB**, and supports **Email (via Nodemailer)** and **SMS (via AWS SNS)** notifications.
 
+FOR API USAGE REFER API DOCUMENTATION
+
 ##  Features
 
 - Queue-based notification delivery
