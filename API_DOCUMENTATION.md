@@ -63,7 +63,7 @@ http://localhost:5000/api
     "retries": "number",
     "createdAt": "ISODate string"
   },
-  ...
+  
 ]
 ```
 - **Errors:** `500 Internal Server Error` for server issues.
